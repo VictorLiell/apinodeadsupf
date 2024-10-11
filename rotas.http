@@ -1,0 +1,24 @@
+GET http://localhost:3333/alunos
+
+###
+POST http://localhost:3333/alunos
+Content-Type: application/json
+
+{
+    "name": "Maria da silva",
+    "email":"mario@upf.br",
+    "age": 50
+}
+
+###
+PUT http://localhost:3333/alunos/521e375f-f321-4b5a-89f7-d2ddebbf17db
+Content-Type: application/json
+
+{
+    "name": "Maria  silva",
+    "email":"maria@upf.br",
+    "age": 50
+}
+
+###
+DELETE http://localhost:3333/alunos/521e375f-f321-4b5a-89f7-d2ddebbf17db
